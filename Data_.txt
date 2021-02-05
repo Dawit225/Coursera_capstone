@@ -1,0 +1,14 @@
+Based on the definition of our problem, factors that may impact our decision are:
+  * Demographic information, e.g. population, density, education, age, income
+  * Number of existing shopping malls in the neighborhood and nearby
+  * Number of existing movie theaters in the neighborhood and nearby
+We decided to use a regularly spaced grid of locations all around the whole Montreal island, to define our neighborhoods. Concretely, we will use popular hexagon honeycomb to define our neighborhoods.
+In this project, we will fetch or extract data from the following data sources:
+  * Montreal census information of the 2016 year
+  * Centers of hexagon neighborhoods will be generated algorithmically and approximate addresses of     centers of those areas will be obtained using Google Geocoding API
+  * Shopping malls and movie theaters data in every neighborhood will be obtained using Foursquare     API
+  * Coordinate of Montreal center will be obtained using Google Geocoding API of well known     Montreal location
+  * Montreal borough shapefile is obtained from Carto
+ Montreal Island Shape File
+To show the Montreal island boundary in the folium map, we need a geojson definition file for Montreal island. We downloaded this shapefile from the Carto website.
+The file is in JSON format, containing boundary definition for every borough or municipality in Montreal island.
