@@ -3,5 +3,8 @@ Specifically, this report can provide a reference for stakeholders who are inter
 a movie theater in Montreal, Quebec, Canada.Montreal is the second-largest city in Canada and 
 the largest city in the province of Quebec, located along the Saint Lawrence River at its 
 junction with the Ottawa River. It sits on an island. In this report, we will focus on all 
-areas on the Montreal island. There are many movie theaters on Montreal island, we will conclude where are the existing movie theaters. Then we will use a clustering model to find similar areas on the island considering demographic data of each borough and region. The preferred area shall be distant from existing movie theaters.
-We will use data science tools to fetch the raw data, visualize it then generate a few most promising areas based on the above criteria. In the meanwhile, we will also explain the advantage and traits for the candidates, so that stakeholders can make the final decision base on the analysis.
+areas on the Montreal island. There are many movie theaters on Montreal island, we will conclude where are the existing movie theaters. 
+Then we will use a clustering model to find similar areas on the island considering demographic data of each borough and region. 
+The preferred area shall be distant from existing movie theaters.
+We will use data science tools to fetch the raw data, visualize it then generate a few most promising areas based on the above criteria.
+In the meanwhile, we will also explain the advantage and traits for the candidates, so that stakeholders can make the final decision base on the analysis.
